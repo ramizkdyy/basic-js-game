@@ -10,7 +10,7 @@ const table = document.querySelector('.table');
 const plate = document.querySelector('.plate');
 const ball = document.querySelector('.ball');
 let point = document.getElementsByClassName('.score');
-
+//
 
 let xV = 6;
 let yV = 6;
