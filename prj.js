@@ -38,7 +38,7 @@ function updateBallPosition() {
 
   if (ballRight > plateLeft && ballLeft < plateRight && ballBottom > plateTop && ballTop < plateBottom) {
     yV = -yV;
-    
+    document.querySelector(".score").innerHTML = parseInt(document.querySelector(".score").innerHTML) + 1;
   }
 
   document.addEventListener('mousemove',function(event){
